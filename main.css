@@ -1,0 +1,39 @@
+nav li {
+  display: inline;
+  margin-right :40px;
+  padding: 0 100px;
+  text-decoration: none;
+  border: 3px solid black;
+  font-weight: bold;
+
+}
+h1{
+  font-family: century;
+  font-size: 60px;
+  color: #0E5AB7;
+}
+
+
+header{
+  background: url("pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40em;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-style: oblique;
+  color: steelblue;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+
+}
+#benefit{
+  margin-left: -50%;
+}
