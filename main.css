@@ -5,12 +5,16 @@ nav li {
   text-decoration: none;
   border: 3px solid black;
   font-weight: bold;
-
+  background-color: #339DEF;
+  
 }
 h1{
   font-family: century;
   font-size: 60px;
   color: #0E5AB7;
+  background-color:#80D0C5;
+  text-shadow: 5px 5px 10px #0455B7;
+  margin: auto;
 }
 
 
@@ -26,14 +30,34 @@ li a{
   text-decoration: none;
   font-size: 16px;
   font-style: oblique;
-  color: steelblue;
+  color: white;
 }
 
 body{
+  background-color: #BADDD8;
   text-align: center;
   margin: 0;
 
 }
-#benefit{
+.benefits{
+  width:300px;
+  margin-left: 5%;
+  margin-top: 10%;
+  padding-bottom: 150px;
+  padding-top: 2%;
+  background-color:#CEFCF5;
+
+}
+#quotes{
   margin-left: -50%;
+  padding: 15%;
+  font-size:25px;
+  font-family: cursive;
+  color:#484848 ;
+  text-shadow: 4px 4px 7px #AE7979;
+}
+
+#hand {
+  width: 400px;
+  
 }
