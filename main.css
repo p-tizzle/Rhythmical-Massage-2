@@ -1,32 +1,38 @@
-/* header still needs a few quotes to fade in and fade
-out*/
+
+
+
+/************header*********/
 
 header{
+  position: relative;
   text-decoration: none;
   background: url("images/pic1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center ;
   height: 40em;
   margin: 1.5%;
 }
-/* quotes in the header*/
+
 #quotes{
-  margin-left: -50%;
-  padding: 15%;
+  position: absolute;
+  left: 20%;
+  top: 40%;
   font-size:25px;
   font-family: cursive;
   color:#484848 ;
   text-shadow: 4px 4px 7px #AE7979;
 }
   
+/*******body*****/
 body{
   background-color: #BADDD8;
   text-align: center;
 }
 
 
-h1 {
+/********h1********/
+h1{
   text-align: center;
   text-decoration: none;
   font-family: century;
@@ -37,28 +43,48 @@ h1 {
   margin: auto;
 }
 
+/********navigation********/
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0%;
+  overflow: hidden;
+  background-color:#339DEF;
+}
+
+.links li{
+  display: inline-block;
+  padding-right: 2%;
+  
+}
 
 li a{
-  text-align: center;
+  display: block;
+  padding: 8px 80px;
+   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-style: oblique;
   color: white;
+  border: 3px solid #0780A8;
+}
+li a:hover{
+  background-color: black;
+}
+li a:active{
+  background-color: red;
+}
+li a:text {
+  color: orange;
+}
+li a:focus {
+  color: purple;
 }
 
 
 
-nav li {
-  display: inline;
-  margin-right : 2%;
-  padding: 4px 100px ;
-  text-decoration: none;
-  border: 3px solid black;
-  font-weight: bold;
-  background-color: #339DEF;
-}
 
-
+/*******rmt h2*****/
 .rmt{
 
   text-align: center;
@@ -73,6 +99,10 @@ nav li {
   padding-right: 2%;
 }
 
+
+
+/*******indication bullets***********/
+
 .reason {
   background-color: #80D0C5;
   text-align:center;
@@ -83,9 +113,7 @@ nav li {
 #left{
   float: left;
   padding: 4%;
-  
 }
-  
 #right{
   float: right;
   padding: 4%;
