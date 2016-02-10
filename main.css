@@ -11,7 +11,7 @@ header{
   background-repeat: no-repeat;
   background-position: center ;
   height: 40em;
-  margin: 1.5%;
+  margin: 0;
 }
 
 #quotes{
@@ -26,13 +26,17 @@ header{
   
 /*******body*****/
 body{
-  background-color: #BADDD8;
+  background: url("blue2.jpg");
+  background-size: cover;
+  /*background-color: #BADDD8;*/
   text-align: center;
 }
 
 
 /********h1********/
-h1{
+.title{
+  background: url("images/grey3.jpg");
+
   text-align: center;
   text-decoration: none;
   font-family: century;
@@ -45,6 +49,7 @@ h1{
 
 /********navigation********/
 .links {
+  background: url("images/button.jpg");
   list-style: none;
   margin: 0;
   padding: 0%;
@@ -86,11 +91,10 @@ li a:focus {
 
 /*******rmt h2*****/
 .rmt{
-
   text-align: center;
   background-color:#CEFCF5;
   margin: 5% 25% 5% 30%;
-  padding: 10px 20px 45px 20px;
+  padding: 20px 20px 45px 20px;
 }
 
 .hands {
@@ -106,8 +110,8 @@ li a:focus {
 .reason {
   background-color: #80D0C5;
   text-align:center;
-  padding: 2% 8% 6% 8%;
-   margin: 0 10% 5% 10%;
+  padding: 2% 8% 6% 6%;
+   margin: 2% 10% 5% 10%;
 }
 
 #left{
@@ -117,4 +121,42 @@ li a:focus {
 #right{
   float: right;
   padding: 4%;
+}
+
+/***********chainges to the home page**********/
+.sabrina {
+  margin: 5% 20% 5% 20%;
+  color: #D8EBED;
+  text-shadow: 3px 3px 5px #9CB7BA;
+
+}
+
+/*.none {
+  background: url("blue2.jpg");
+}
+*/
+#sabpic {
+  float: right;
+  padding-top: 0;
+  width: 160px;
+}
+
+.general{
+  list-style: outside circle;
+  width:450px;
+  margin-left: 20%;
+ 
+}
+
+.bullets li{
+  margin: 0 10px 0 10px;
+  font-size:18px;
+}
+
+#general2 {
+  font-size: 20px;
+}
+
+#benefits2 {
+  background: url("images/button.jpg");
 }
