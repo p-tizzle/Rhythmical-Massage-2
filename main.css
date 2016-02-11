@@ -28,7 +28,6 @@ header{
 body{
   background: url("blue2.jpg");
   background-size: cover;
-  /*background-color: #BADDD8;*/
   text-align: center;
 }
 
@@ -60,9 +59,7 @@ body{
 .links li{
   display: inline-block;
   padding-right: 2%;
-  
 }
-
 li a{
   display: block;
   padding: 8px 80px;
@@ -128,13 +125,11 @@ li a:focus {
   margin: 5% 20% 5% 20%;
   color: #D8EBED;
   text-shadow: 3px 3px 5px #9CB7BA;
+  border-bottom: 2px solid   #484848;
 
 }
 
-/*.none {
-  background: url("blue2.jpg");
-}
-*/
+
 #sabpic {
   float: right;
   padding-top: 0;
@@ -144,8 +139,7 @@ li a:focus {
 .general{
   list-style: outside circle;
   width:450px;
-  margin-left: 20%;
- 
+  margin-left: 26%;
 }
 
 .bullets li{
@@ -158,5 +152,53 @@ li a:focus {
 }
 
 #benefits2 {
+  background: url("images/grey3.jpg");
+}
+
+
+
+
+#home{
+ width: 375px;
+ float: right;
+ margin-right: 26%;
+}
+
+#contact {
   background: url("images/button.jpg");
+  color:#D8EBED;
+  text-align: center;
+}
+
+
+.info {
+  color: #D8EBED;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 20%;
+  border-left: 2px solid #484848;
+  border-right: 2px solid #484848;
+}
+
+ 
+ #clip {
+   width: 200px;
+ }
+#types {
+  overflow:auto;
+}
+
+#basicinfo, #addressInfo, .maps{
+  width: 31.3%;
+  float: left;
+  margin:1%;
+}
+
+.maps {
+  margin-right: 0%;
+}
+#basicinfo {
+  display:block;
+  border-left: 2px solid #484848;
+  border-right: 2px solid #484848;
 }
