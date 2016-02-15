@@ -10,11 +10,15 @@
     
   <body>
     <header>
-      <p id="quotes"> Results will show up <br> when you do... <br> ~Jill Koenig</p>
+      <div class="quotes">
+          <p> Results will show up <br> when you do... <br> ~Jill Koenig</p>
+      </div>
     </header>
         <div>
             <h1 class="title">Massage/RMT Therapy <br>Sabrina Ford</h1>
+            <h2 id="call"> (502)299-1171</h2>
         </div>
+        <div>
           <nav class="links">
               <ul id="centerButon">
                   <li><a href="index.html">Home</a></li>
@@ -24,14 +28,15 @@
                   <li><a href="Contact.html">Contact</a></li>
               </ul>
           </nav>
+        </div>
         <div class="sabrina">
           <img id="sabpic" src="images/history.jpg">
-            <h1>My name is Sabrina Ford. I am a licensed Massage therapist with training in Swedish Massage, Deep Tissue Massage, Myofacial Release Techniqus and special training in Rhythmical Massage Therapy. I currently
+            <h2>My name is Sabrina Ford. I am a licensed Massage therapist with training in Swedish Massage, Deep Tissue Massage, Myofacial Release Techniqus and special training in Rhythmical Massage Therapy. I currently
                 offer appointments on Wednesdays, Saturdays and Sundays. Please feel free to go to the Sessions menu on my page to read in depth of what different types of massage I can offer you. My studio on 2325 Lime Kiln Lane
                 , east of the Waterson Expressway.
-            </h1>
+            </h2>
         </div>
-      <section>
+      <section id="beneFit">
           <img id="home" src="images/home.jpg">
         <div class="general">
             <h2 id="benefits2">General Benefits of Massage</h2>
@@ -45,7 +50,17 @@
                       <p id="general2">Massage has many benefits, that are achieved by various degrees of touch and manipulation of skin, muscles, tendons and ligaments</p>
               </ul>
         </div>
-      </section>
+        </section>
+          <h1 id="specialize">I Specialize In:</h1>
+        <div id="basicinfo">
+          
+           <img id="clip" src="images/clip.jpeg">
+            <h1>Swedish Massage</h1>
+            <h1>Deep Tissue Massage</h1>
+            <h1>Myofacial Release Techniques</h1>
+            <h1>Rhythmical Massage Training</h1>
+        </div>
+     
          <div id="contact">
             <h1 id="contact">~Contact Me~</h1>
          </div>
@@ -58,21 +73,29 @@
             <h3>(502)299-1171</h3>
             </div>
            </div>
-           <div id="basicinfo">
-           <img id="clip" src="images/clip.jpeg">
-            <h1>Swedish Massage</h1>
-            <h1>Deep Tissue Massage</h1>
-            <h1>Myofacial Release Techniques</h1>
-            <h1>Rhythmical Massage Training</h1>
-          </div>
+           <div id="email">
+             <h1 >
+               Email
+             </h1>
+                  <form action="MAILTO:jerrytinney@icloud.com" method="post" enctype="text/plain">
+                    Name:<br>
+                  <input type="text" name="name" value=""><br>
+                  E-mail:<br>
+                  <input type="text" name="mail" value=""><br>
+                  Comment:<br>
+                  <input type="text" name="comment" value="" size="30"><br><br>
+                  <input type="submit" value="Send">
+                  <input type="reset" value="Reset">
+                </form>
+               </div>
         <div class="map">
           <iframe
-              width="350"
-              height="300"
+                width="300"
+                height="250"
               src="http://maps.google.co.uk/maps?q=2325+Lime+Kiln+Ln,+Northfield,+KY&amp;output=embed">
           </iframe>
         </div>
-      </div>
+    </div>
     <footer>
       <p>&copy; 2016 Jerry Port Tinney. </p>
     </footer>

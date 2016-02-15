@@ -6,15 +6,15 @@
 header{
   position: relative;
   text-decoration: none;
-  background: url("images/pic1.jpg");
-  background-size: cover;
+  background: url("images/newtitle.png");
+  background-size: 90% 80%;
   background-repeat: no-repeat;
   background-position: center ;
   height: 40em;
-  margin: 0;
+  margin: auto;
 }
 
-#quotes{
+.quotes{
   position: absolute;
   left: 20%;
   top: 40%;
@@ -35,7 +35,6 @@ body{
 /********h1********/
 .title{
   background: url("images/grey3.jpg");
-
   text-align: center;
   text-decoration: none;
   font-family: century;
@@ -44,6 +43,11 @@ body{
   background-color:#80D0C5;
   text-shadow: 5px 5px 10px #0455B7;
   margin: auto;
+}
+#call {
+  position:absolute;
+  
+  color:white;
 }
 
 /********navigation********/
@@ -123,12 +127,16 @@ li a:focus {
 /***********chainges to the home page**********/
 .sabrina {
   margin: 5% 20% 5% 20%;
+  padding-bottom: 4%;
   color: #D8EBED;
   text-shadow: 3px 3px 5px #9CB7BA;
-  border-bottom: 2px solid   #484848;
+  border-bottom: 1px inset  #D8EBED;
 
 }
 
+#beneFit{
+  margin: 10% 0 10% 0;
+}
 
 #sabpic {
   float: right;
@@ -168,6 +176,7 @@ li a:focus {
   background: url("images/button.jpg");
   color:#D8EBED;
   text-align: center;
+  padding: 1px 0 1px 0;
 }
 
 
@@ -184,21 +193,33 @@ li a:focus {
  #clip {
    width: 200px;
  }
+ 
+ #basicinfo {
+   margin-top:2%;
+ }
+ #specialize {
+    font-family: century;
+  font-size: 60px;
+  color: #0E5AB7;
+    background: url("images/grey3.jpg");
+    margin:0 20% 0 20%;
+ }
+ 
+ 
 #types {
   overflow:auto;
 }
 
-#basicinfo, #addressInfo, .maps{
+#email, #addressInfo, .maps{
   width: 31.3%;
   float: left;
   margin:1%;
 }
 
-.maps {
-  margin-right: 0%;
+.map {
+    margin: 3%;
 }
-#basicinfo {
-  display:block;
+#email {
   border-left: 2px solid #484848;
   border-right: 2px solid #484848;
 }
