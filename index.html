@@ -6,17 +6,18 @@
     <title>Sabrina Ford massage</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   </head>
     
   <body>
     <header>
       <div class="quotes">
           <p> Results will show up <br> when you do... <br> ~Jill Koenig</p>
+
       </div>
     </header>
         <div>
             <h1 class="title">Massage/RMT Therapy <br>Sabrina Ford</h1>
-            <h2 id="call"> (502)299-1171</h2>
         </div>
         <div>
           <nav class="links">
@@ -29,13 +30,35 @@
               </ul>
           </nav>
         </div>
+         <h1 id="call"> (502)299-1171</h1>
         <div class="sabrina">
-          <img id="sabpic" src="images/history.jpg">
+          <img id="sabpic" src="images/sabrina.jpg">
             <h2>My name is Sabrina Ford. I am a licensed Massage therapist with training in Swedish Massage, Deep Tissue Massage, Myofacial Release Techniqus and special training in Rhythmical Massage Therapy. I currently
                 offer appointments on Wednesdays, Saturdays and Sundays. Please feel free to go to the Sessions menu on my page to read in depth of what different types of massage I can offer you. My studio on 2325 Lime Kiln Lane
                 , east of the Waterson Expressway.
             </h2>
         </div>
+        <h1 id="specialize">Offering Services In:</h1>
+               <div id="basicinfo">
+                <img id="clip" src="images/clip.jpeg">
+              <h1 class="hiddenDiv">Swedish Massage</h1>
+                <div class="hidden" style="display:none">
+                  <p class="hiddenP">the most commonly used form of classical Western massage, generally performed in the direction of the heart, sometimes with active or passive movement of the joints. It is used especially for relaxation, relief of muscular tension, and improvement of circulation and range of motion.</p>
+              </div>
+                <h1 class="hiddenDiv">Deep Tissue Massage</h1>
+                  <div class="hidden" style="display:none">
+                    <p class="hiddenP"> Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension. The focus is on the deepest layers of muscle tissue, tendons and fascia (the protective layer surrounding muscles, bones and joints).</p>
+                  </div>
+          
+            <h1 class="hiddenDiv">Myofacial Release Techniques</h1>
+                  <div class="hidden" style="display:none">
+                    <p class="hiddenP">Myofascial release is a manipulative treatment that attempts to release tension in the fascia due to trauma, posture, or inflammation. Connective tissues called fascia surround the muscles, bones, nerves, and organs of the body</p>
+                  </div>
+            <h1 class="hiddenDiv">Rhythmical Massage Training</h1>
+                  <div class="hidden" style="display:none">
+                    <p class="hiddenP">Rhythmical Massage Therapy as indicated by Dr. Ita Wegman is a gentle, harmonizing massage that helps awaken the self-healing forces within each individual to promote optimal health. Through specific massage movements on the body the Rhythmical Massage Therapist addresses the relationship between the body, soul and spirit by working with the life supporting forces of warmth, rhythm and breathing, the interplay of levity and gravity as well as center and periphery.</p>
+                  </div>
+            </div>
       <section id="beneFit">
           <img id="home" src="images/home.jpg">
         <div class="general">
@@ -51,16 +74,6 @@
               </ul>
         </div>
         </section>
-          <h1 id="specialize">I Specialize In:</h1>
-        <div id="basicinfo">
-          
-           <img id="clip" src="images/clip.jpeg">
-            <h1>Swedish Massage</h1>
-            <h1>Deep Tissue Massage</h1>
-            <h1>Myofacial Release Techniques</h1>
-            <h1>Rhythmical Massage Training</h1>
-        </div>
-     
          <div id="contact">
             <h1 id="contact">~Contact Me~</h1>
          </div>
@@ -95,7 +108,15 @@
               src="http://maps.google.co.uk/maps?q=2325+Lime+Kiln+Ln,+Northfield,+KY&amp;output=embed">
           </iframe>
         </div>
-    </div>
+  </div>
+    <script>
+      $(document).ready(function () {
+        $(".hiddenDiv").hover(function(){
+          $(".hidden").hide();
+          $(this).next().fadeToggle("slow");
+        });
+    });
+    </script>
     <footer>
       <p>&copy; 2016 Jerry Port Tinney. </p>
     </footer>

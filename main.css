@@ -45,7 +45,7 @@ body{
   margin: auto;
 }
 #call {
-  position:absolute;
+
   
   color:white;
 }
@@ -127,10 +127,9 @@ li a:focus {
 /***********chainges to the home page**********/
 .sabrina {
   margin: 5% 20% 5% 20%;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   color: #D8EBED;
   text-shadow: 3px 3px 5px #9CB7BA;
-  border-bottom: 1px inset  #D8EBED;
 
 }
 
@@ -192,10 +191,11 @@ li a:focus {
  
  #clip {
    width: 200px;
+   margin-top: 2%;
  }
  
  #basicinfo {
-   margin-top:2%;
+   margin: 0% 35% 10% 35%;
  }
  #specialize {
     font-family: century;
@@ -222,4 +222,13 @@ li a:focus {
 #email {
   border-left: 2px solid #484848;
   border-right: 2px solid #484848;
+}
+
+
+.hiddenP {
+  color: white;
+}
+.hiddenDiv:hover {
+  background: white;
+ 
 }
