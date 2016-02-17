@@ -3,6 +3,8 @@
 
 /************header*********/
 
+
+
 header{
   position: relative;
   text-decoration: none;
@@ -20,11 +22,17 @@ header{
   top: 40%;
   font-size:25px;
   font-family: cursive;
-  color:#484848 ;
+  color: white ;
   text-shadow: 4px 4px 7px #AE7979;
 }
+
+
+
   
 /*******body*****/
+
+
+
 body{
   background: url("images/body.gif");
   background-size: cover;
@@ -33,6 +41,8 @@ body{
 
 
 /********h1********/
+
+
 .title{
   background: url("images/grey3.jpg");
   text-align: center;
@@ -45,19 +55,31 @@ body{
   margin: 0 10% 0 10%;
   
 }
-#call {
 
-  
+
+
+/*********phone number under nav*******/
+
+
+
+#call {
   color:white;
+  margin: 6% 0 1% 0;
 }
 
+
+
 /********navigation********/
+
+
+
+
 .links {
   list-style: none;
-  margin: 0 10% 0 10%;
-  padding: 0%;
+  margin: 2% 10% 0 10%;
+  padding: 0;
   overflow: hidden;
- ;
+ 
 }
 
 .links li{
@@ -71,8 +93,9 @@ li a{
   text-decoration: none;
   font-size: 20px;
   font-style: oblique;
-  color: white;
-  border: 3px solid #0780A8;
+  color:  white;
+  border-radius: 25px;
+  background-color:#80D6F2;
 }
 li a:hover{
   background-color: #69857B;
@@ -90,7 +113,10 @@ li a:focus {
 
 
 
-/*******rmt h2*****/
+/*******rmt h2 SERVICES PAGE*****/
+
+
+
 .rmt{
   text-align: center;
   background-color:#CEFCF5;
@@ -106,7 +132,11 @@ li a:focus {
 
 
 
-/*******indication bullets***********/
+
+/*******indication bullets SERVICES PAGE***********/
+
+
+
 
 .reason {
   background-color: #80D0C5;
@@ -123,24 +153,38 @@ li a:focus {
   float: right;
   padding: 4%;
 }
+ #clip {
+   width: 150px;
+   margin-top: 2%;
+ }
+ 
 
-/***********chainges to the home page**********/
+/***********DIV CLASS SABRINA**********/
+
+
+
 .sabrina {
-  margin: 5% 20% 5% 20%;
+  margin: 0% 20% 5% 20%;
   padding-bottom: 2%;
   color: #D8EBED;
   text-shadow: 3px 3px 5px #9CB7BA;
 
 }
 
-#beneFit{
-  margin: 10% 0 10% 0;
-}
-
 #sabpic {
   float: right;
   padding-top: 0;
   width: 160px;
+}
+
+
+/**********GENERAL BENEFITS HOME PAGE   beneFit*********/
+
+
+
+
+#beneFit{
+  margin: 10% 0 10% 0;
 }
 
 .general{
@@ -159,26 +203,55 @@ li a:focus {
 }
 
 #benefits2 {
-  background: url("images/grey3.jpg");
+  background:#69857B;
 }
 
-
-
-
 #home{
- width: 375px;
+ width: 300px;
  float: right;
  margin-right: 26%;
 }
 
+
+ 
+ /**********OFFERING SERVICES IN**********************/
+ 
+ 
+ 
+ #specialize {
+    font-family: century;
+  font-size: 60px;
+  color: #5CB88E;
+    background-color: #69857B;
+    margin:0 20% 0 20%;
+    border-radius: 25px;
+ }
+.hiddenP {
+  color: white;
+}
+.hiddenDiv:hover {
+  background: #80D6F2;
+}
+#basicinfo {
+   margin: 0 35% 10% 35%;
+ }
+ 
+ 
+ 
+  
+/**********CONTACT INFORMATION*******/
+
+
+
 #contact {
-  background: url("images/button.jpg");
+  background:#5CB88E;
   color:#D8EBED;
   text-align: center;
   padding: 1px 0 1px 0;
+  margin: .5% 5% .5% 5%;
+  border-radius: 25px;
 }
-
-
+ 
 .info {
   color: #D8EBED;
   font-size: 20px;
@@ -187,24 +260,6 @@ li a:focus {
   border-left: 2px solid #484848;
   border-right: 2px solid #484848;
 }
-
- 
- #clip {
-   width: 180px;
-   margin-top: 2%;
- }
- 
- #basicinfo {
-   margin: 0% 35% 10% 35%;
- }
- #specialize {
-    font-family: century;
-  font-size: 60px;
-  color: #0E5AB7;
-    background: url("images/grey3.jpg");
-    margin:0 20% 0 20%;
- }
- 
  
 #types {
   overflow:auto;
@@ -224,11 +279,3 @@ li a:focus {
   border-right: 2px solid #484848;
 }
 
-
-.hiddenP {
-  color: white;
-}
-.hiddenDiv:hover {
-  background: white;
- 
-}
