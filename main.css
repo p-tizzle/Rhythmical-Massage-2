@@ -101,7 +101,7 @@ li a:hover{
   background-color: #69857B;
 }
 li a:active{
-  background-color: red;
+  background-color: white;
 }
 li a:text {
   color: orange;
