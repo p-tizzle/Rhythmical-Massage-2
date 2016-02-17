@@ -5,4 +5,3 @@
           $(this).next().fadeToggle("slow");
         });
     });
-    

@@ -6,11 +6,11 @@
 header{
   position: relative;
   text-decoration: none;
-  background: url("images/newtitle.png");
-  background-size: 90% 80%;
+  background: url("images/newtitle.jpg");
+  background-size: 80% 100%;
   background-repeat: no-repeat;
   background-position: center ;
-  height: 40em;
+  height: 30em;
   margin: auto;
 }
 
@@ -26,7 +26,7 @@ header{
   
 /*******body*****/
 body{
-  background: url("blue2.jpg");
+  background: url("images/body.gif");
   background-size: cover;
   text-align: center;
 }
@@ -39,10 +39,11 @@ body{
   text-decoration: none;
   font-family: century;
   font-size: 60px;
-  color: #0E5AB7;
-  background-color:#80D0C5;
+  color: #30D199;
+  background-color:#69857B;
   text-shadow: 5px 5px 10px #0455B7;
-  margin: auto;
+  margin: 0 10% 0 10%;
+  
 }
 #call {
 
@@ -52,12 +53,11 @@ body{
 
 /********navigation********/
 .links {
-  background: url("images/button.jpg");
   list-style: none;
-  margin: 0;
+  margin: 0 10% 0 10%;
   padding: 0%;
   overflow: hidden;
-  background-color:#339DEF;
+ ;
 }
 
 .links li{
@@ -75,7 +75,7 @@ li a{
   border: 3px solid #0780A8;
 }
 li a:hover{
-  background-color: black;
+  background-color: #69857B;
 }
 li a:active{
   background-color: red;
@@ -190,7 +190,7 @@ li a:focus {
 
  
  #clip {
-   width: 200px;
+   width: 180px;
    margin-top: 2%;
  }
  
@@ -211,13 +211,13 @@ li a:focus {
 }
 
 #email, #addressInfo, .maps{
-  width: 31.3%;
+  width: 33.3%;
   float: left;
   margin:1%;
 }
 
 .map {
-    margin: 3%;
+    margin: 2%;
 }
 #email {
   border-left: 2px solid #484848;
