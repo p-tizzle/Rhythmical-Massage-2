@@ -1,0 +1,234 @@
+
+
+
+/************header*********/
+
+header{
+  position: relative;
+  text-decoration: none;
+  background: url("images/newtitle.jpg");
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 30em;
+  margin: auto;
+}
+
+.quotes{
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  font-size:25px;
+  font-family: cursive;
+  color:#484848 ;
+  text-shadow: 4px 4px 7px #AE7979;
+}
+  
+/*******body*****/
+body{
+  background: url("images/body.gif");
+  background-size: cover;
+  text-align: center;
+}
+
+
+/********h1********/
+.title{
+  background: url("images/grey3.jpg");
+  text-align: center;
+  text-decoration: none;
+  font-family: century;
+  font-size: 60px;
+  color: #30D199;
+  background-color:#69857B;
+  text-shadow: 5px 5px 10px #0455B7;
+  margin: 0 10% 0 10%;
+  
+}
+#call {
+
+  
+  color:white;
+}
+
+/********navigation********/
+.links {
+  list-style: none;
+  margin: 0 10% 0 10%;
+  padding: 0%;
+  overflow: hidden;
+ ;
+}
+
+.links li{
+  display: inline-block;
+  padding-right: 2%;
+}
+li a{
+  display: block;
+  padding: 8px 80px;
+   text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+  color: white;
+  border: 3px solid #0780A8;
+}
+li a:hover{
+  background-color: #69857B;
+}
+li a:active{
+  background-color: red;
+}
+li a:text {
+  color: orange;
+}
+li a:focus {
+  color: purple;
+}
+
+
+
+
+/*******rmt h2*****/
+.rmt{
+  text-align: center;
+  background-color:#CEFCF5;
+  margin: 5% 25% 5% 30%;
+  padding: 20px 20px 45px 20px;
+}
+
+.hands {
+  float: left;
+  width: 250px;
+  padding-right: 2%;
+}
+
+
+
+/*******indication bullets***********/
+
+.reason {
+  background-color: #80D0C5;
+  text-align:center;
+  padding: 2% 8% 6% 6%;
+   margin: 2% 10% 5% 10%;
+}
+
+#left{
+  float: left;
+  padding: 4%;
+}
+#right{
+  float: right;
+  padding: 4%;
+}
+
+/***********chainges to the home page**********/
+.sabrina {
+  margin: 5% 20% 5% 20%;
+  padding-bottom: 2%;
+  color: #D8EBED;
+  text-shadow: 3px 3px 5px #9CB7BA;
+
+}
+
+#beneFit{
+  margin: 10% 0 10% 0;
+}
+
+#sabpic {
+  float: right;
+  padding-top: 0;
+  width: 160px;
+}
+
+.general{
+  list-style: outside circle;
+  width:450px;
+  margin-left: 26%;
+}
+
+.bullets li{
+  margin: 0 10px 0 10px;
+  font-size:18px;
+}
+
+#general2 {
+  font-size: 20px;
+}
+
+#benefits2 {
+  background: url("images/grey3.jpg");
+}
+
+
+
+
+#home{
+ width: 375px;
+ float: right;
+ margin-right: 26%;
+}
+
+#contact {
+  background: url("images/button.jpg");
+  color:#D8EBED;
+  text-align: center;
+  padding: 1px 0 1px 0;
+}
+
+
+.info {
+  color: #D8EBED;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 20%;
+  border-left: 2px solid #484848;
+  border-right: 2px solid #484848;
+}
+
+ 
+ #clip {
+   width: 180px;
+   margin-top: 2%;
+ }
+ 
+ #basicinfo {
+   margin: 0% 35% 10% 35%;
+ }
+ #specialize {
+    font-family: century;
+  font-size: 60px;
+  color: #0E5AB7;
+    background: url("images/grey3.jpg");
+    margin:0 20% 0 20%;
+ }
+ 
+ 
+#types {
+  overflow:auto;
+}
+
+#email, #addressInfo, .maps{
+  width: 33.3%;
+  float: left;
+  margin:1%;
+}
+
+.map {
+    margin: 2%;
+}
+#email {
+  border-left: 2px solid #484848;
+  border-right: 2px solid #484848;
+}
+
+
+.hiddenP {
+  color: white;
+}
+.hiddenDiv:hover {
+  background: white;
+ 
+}
