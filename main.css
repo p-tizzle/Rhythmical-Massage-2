@@ -44,7 +44,7 @@ body{
 
 
 .title{
-  background: url("images/grey3.jpg");
+ 
   text-align: center;
   text-decoration: none;
   font-family: century;
@@ -184,13 +184,14 @@ li a:focus {
 
 
 #beneFit{
-  margin: 10% 0 10% 0;
+  margin: 10% 0 10% 20%;
+  max-width:100%;
 }
 
 .general{
   list-style: outside circle;
   width:450px;
-  margin-left: 26%;
+  position:static;
 }
 
 .bullets li{
@@ -209,7 +210,9 @@ li a:focus {
 #home{
  width: 300px;
  float: right;
- margin-right: 26%;
+ margin-right:35%;
+ padding: 5px;
+
 }
 
 
