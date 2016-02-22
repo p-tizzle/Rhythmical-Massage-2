@@ -40,6 +40,8 @@ body{
 }
 
 
+
+
 /********h1********/
 
 
@@ -76,16 +78,18 @@ body{
 
 .links {
   list-style: none;
-  margin: 2% 10% 0 10%;
-  padding: 0;
+  margin: 2% 10% 2% 10%;
+  padding: .5%;
   overflow: hidden;
  
 }
 
 .links li{
   display: inline-block;
-  padding-right: 2%;
+  padding-right: 4%;
 }
+
+
 li a{
   display: block;
   padding: 8px 80px;
@@ -95,21 +99,17 @@ li a{
   font-style: oblique;
   color:  white;
   border-radius: 25px;
-  background-color:#80D6F2;
+  background-color:#5AB392;
+  text-shadow: 5px 5px 10px #0455B7
 }
+
 li a:hover{
   background-color: #69857B;
+  box-shadow: 0 0 50px #fff;
 }
 li a:active{
   background-color: white;
 }
-li a:text {
-  color: orange;
-}
-li a:focus {
-  color: purple;
-}
-
 
 
 
@@ -158,14 +158,18 @@ li a:focus {
    margin-top: 2%;
  }
  
+#moreInfo {
+  color:white;
+}
 
 /***********DIV CLASS SABRINA**********/
 
 
 
 .sabrina {
-  margin: 0% 20% 5% 20%;
-  padding-bottom: 2%;
+  font-size: 1.5em;
+  margin: 0 20% 2% 20%;
+
   color: #D8EBED;
   text-shadow: 2px 2px 3px #9CB7BA;
 
@@ -173,8 +177,7 @@ li a:focus {
 
 #sabpic {
   float: right;
-  padding-top: 0;
-  width: 160px;
+  width: 18%;
 }
 
 
@@ -184,35 +187,40 @@ li a:focus {
 
 
 #beneFit{
-  margin: 10% 0 10% 20%;
-  max-width:100%;
+ margin: 0 28% 25% 18%;
+ 
+}
+
+.bullets{
+  width:80%;
+  margin: 0 3%;
 }
 
 .general{
   list-style: outside circle;
-  width:450px;
-  position:static;
+  width:60%;
+  height:30%;
+  float:left;
 }
 
 .bullets li{
-  margin: 0 10px 0 10px;
-  font-size:18px;
+   list-style: outside circle;
+  margin: 0 2% 0 2%;
+  font-size:110%;
 }
 
 #general2 {
-  font-size: 20px;
+  font-size: 125%;
 }
 
 #benefits2 {
   background:#69857B;
+  color:#5AB392;
+  text-shadow: 5px 5px 10px #0455B7
 }
 
 #home{
- width: 300px;
- float: right;
- margin-right:35%;
- padding: 5px;
-
+ float:right;
 }
 
 
@@ -228,19 +236,37 @@ li a:focus {
     background-color: #69857B;
     margin:0 20% 0 20%;
     border-radius: 25px;
+    text-shadow: 5px 5px 10px #0455B7
  }
 .hiddenP {
   color: white;
 }
 .hiddenDiv:hover {
-  background: #80D6F2;
+  background-color:#5CB88E;
+  border-radius: 25px;
+  box-shadow: 0 0 300px #fff;
+  /*text-shadow: 3px 5px 200px #fff;*/
 }
 #basicinfo {
-   margin: 0 35% 10% 35%;
+   margin: 0 35% 5% 35%;
  }
  
  
- 
+
+/************CALL TODAY***************/
+  
+  
+#callToday {
+  color: #30D199;
+  margin: 2%;
+}
+  
+  
+  
+  
+  
+  
+  
   
 /**********CONTACT INFORMATION*******/
 
@@ -253,6 +279,7 @@ li a:focus {
   padding: 1px 0 1px 0;
   margin: .5% 5% .5% 5%;
   border-radius: 25px;
+  text-shadow: 5px 5px 10px #0455B7;
 }
  
 .info {
@@ -265,7 +292,7 @@ li a:focus {
 }
  
 #types {
-  overflow:auto;
+
 }
 
 #email, #addressInfo, .maps{
@@ -276,9 +303,16 @@ li a:focus {
 
 .map {
     margin: 2%;
+    
 }
+
+#entrance {
+  color:white;
+}
+
 #email {
   border-left: 2px solid #484848;
   border-right: 2px solid #484848;
 }
 
+/************FOOTER*************/
