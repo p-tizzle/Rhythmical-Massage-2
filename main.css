@@ -16,7 +16,7 @@ header{
   margin: auto;
 }
 
-.quotes{
+/*.quotes{
   position: absolute;
   left: 20%;
   top: 40%;
@@ -25,7 +25,7 @@ header{
   color: white ;
   text-shadow: 4px 4px 7px #AE7979;
 }
-
+*/
 
 
   
@@ -66,7 +66,7 @@ body{
 
 #call {
   color:white;
-  margin: 6% 0 1% 0;
+  margin: 2%;
 }
 
 
@@ -77,7 +77,6 @@ body{
 
 
 .links {
-  list-style: none;
   margin: 2% 10% 2% 10%;
   padding: .5%;
   overflow: hidden;
@@ -113,54 +112,9 @@ li a:active{
 
 
 
-/*******rmt h2 SERVICES PAGE*****/
 
 
 
-.rmt{
-  text-align: center;
-  background-color:#CEFCF5;
-  margin: 5% 25% 5% 30%;
-  padding: 20px 20px 45px 20px;
-}
-
-.hands {
-  float: left;
-  width: 250px;
-  padding-right: 2%;
-}
-
-
-
-
-/*******indication bullets SERVICES PAGE***********/
-
-
-
-
-.reason {
-  background-color: #80D0C5;
-  text-align:center;
-  padding: 2% 8% 6% 6%;
-   margin: 2% 10% 5% 10%;
-}
-
-#left{
-  float: left;
-  padding: 4%;
-}
-#right{
-  float: right;
-  padding: 4%;
-}
- #clip {
-   width: 150px;
-   margin-top: 2%;
- }
- 
-#moreInfo {
-  color:white;
-}
 
 /***********DIV CLASS SABRINA**********/
 
@@ -168,7 +122,7 @@ li a:active{
 
 .sabrina {
   font-size: 1.5em;
-  margin: 0 20% 2% 20%;
+  margin: 0 20% 3% 20%;
 
   color: #D8EBED;
   text-shadow: 2px 2px 3px #9CB7BA;
@@ -224,6 +178,7 @@ li a:active{
 }
 
 
+
  
  /**********OFFERING SERVICES IN**********************/
  
@@ -245,10 +200,9 @@ li a:active{
   background-color:#5CB88E;
   border-radius: 25px;
   box-shadow: 0 0 300px #fff;
-  /*text-shadow: 3px 5px 200px #fff;*/
 }
 #basicinfo {
-   margin: 0 35% 5% 35%;
+   margin: 1% 35% 5% 35%;
  }
  
  
@@ -291,8 +245,9 @@ li a:active{
   border-right: 2px solid #484848;
 }
  
-#types {
-
+#types{
+  width:80%;
+  margin-left:8%;
 }
 
 #email, #addressInfo, .maps{
@@ -315,4 +270,71 @@ li a:active{
   border-right: 2px solid #484848;
 }
 
-/************FOOTER*************/
+/*********************************************
+*********************************************
+             SESSIONS PAGE
+*********************************************
+*********************************************/
+
+
+.sessionDescription {
+  width:50%;
+  margin:2% 25%;
+}
+
+#oils{
+  float: left;
+  padding-right: 2%;
+}
+
+.paraGraph {
+  font-size: 1.5em;
+  padding: 0 2%;
+  color: #fff;
+  text-align:left;
+}
+
+.massageDes {
+  background-color:#69857B;
+  color:#30D199;
+}
+
+.massageDes2 {
+  color: #fff;
+}
+
+.sessionDes {
+  width: 50%;
+  margin: 2% 25%;
+}
+
+.paraGraph2 {
+  font-size: 1.5em;
+  color:#fff;
+  text-align: left;
+
+}
+
+/*********************************************
+*********************************************
+             ABOUT ME PAGE
+****************
+*****************************
+*********************************************/
+
+.aboutMe{
+  width:50%;
+  margin:0 25%;
+}
+
+.moreaboutMe {
+  font-size:1.5em;
+  color: #fff;
+  text-align: left;
+  text-indent: 4%;
+  
+}
+#sabrinaPic {
+  float: right;
+  padding-left: 2%;
+}

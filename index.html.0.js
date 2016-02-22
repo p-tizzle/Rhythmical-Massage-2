@@ -5,5 +5,13 @@
           $(this).next().fadeToggle("slow");
         });
     });
-
+    
+ /**************************************
+          IMAGE SLIDER
+ **************************************/
+ /*   $('.bxslider').bxSlider({
+  mode: 'fade',
+  captions: true
+});
+*/
 
