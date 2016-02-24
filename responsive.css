@@ -11,8 +11,7 @@
   }
    
   .links {
-    margin: 0 25% 0 25%;
-    width: 45%;
+    width: 75%;
   }
   
 
@@ -28,21 +27,38 @@
   
 
    }
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     #home{
       display: none;
   }
-  .general{
-  width: 100%;
+  
+#clip{
+  display:none;
 }
+
+#sabpic{
+  display:none;
+}
+
+
+.general {
+  width: 100%;
+  margin: 20px ;
+}
+
 #beneFits{
   width:100%;
   overflow:auto;
 }
 
-  
+.info {
+  display:none;
 }
 
+#email {
+ margin: auto;
+}
+  
+}
 
 
