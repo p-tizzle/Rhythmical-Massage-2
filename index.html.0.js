@@ -1,17 +1,25 @@
 
-      $(document).ready(function () {
+    
+ /**************************************
+      SERVICES HIDDEN DIV DROPDOWN
+ **************************************/
+
+
+
+       $(document).ready(function () {
         $(".hiddenDiv").click(function(){
-          $(".hidden").hide();
           $(this).next().fadeToggle("slow");
+          $(this).siblings(".hiddenDiv").next().hide()
         });
     });
+    
+    
+    
     
  /**************************************
           IMAGE SLIDER
  **************************************/
- /*   $('.bxslider').bxSlider({
-  mode: 'fade',
-  captions: true
-});
-*/
 
+  $('.carousel').carousel({
+   interval: 2800
+  });
