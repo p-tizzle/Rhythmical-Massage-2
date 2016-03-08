@@ -28,41 +28,31 @@
           <li><a href="Contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div id="contact">
-            <h1 id="contact">~Contact Me~</h1>
-         </div>
-        <div id="types">
-         <div id="addressInfo">
-           <div class="info">
-            <h2>Address</h2>
-            <h3>2325 Lime Kiln Lane</h3>
-            <h2>Phone</h2>
-            <h3 id="call">(502)299-1171</h3>
-            </div>
+           <div>
+                <h3><a id="call" href="tel:5022991171">(502)299-1171</a></h3>
            </div>
-           <div id="email">
-             <h1 >
-               Email
-             </h1>
-                  <form action="MAILTO:sabford@bellsouth.net" method="post" enctype="text/plain">
-                    Name:<br>
-                  <input type="text" name="name" value=""><br>
-                  E-mail:<br>
-                  <input type="text" name="mail" value=""><br>
-                  Comment:<br>
-                  <input type="text" name="comment" value="" size="30"><br><br>
-                  <input type="submit" value="Send">
-                  <input type="reset" value="Reset">
-                </form>
-               </div>
-        <div class="map">
-          <iframe
-                width="300"
-                height="250"
-              src="http://maps.google.co.uk/maps?q=2325+Lime+Kiln+Ln,+Northfield,+KY&amp;output=embed">
-          </iframe>
-        </div>
-    </div>
+                  <div>
+                       <form action="MAILTO:sabford@bellsouth.net" method="post" enctype="text/plain">
+                            <p>Name:</p>
+                      <input type="text" name="name" value="" size="45" minlength="20">
+                          <p>E-mail:</p>
+                      <input type="text" name="mail" value="" size="45" maxlength="60">
+                          <p>Comment:</p>
+                      <textarea name="comments"  cols="48" rows="6" >Enter your comments here...</textarea>
+                  <div>
+                               <input type="submit" value="Send">
+                               <input type="reset" value="Reset">
+                  </div>
+                       </form>
+                  </div>
+                  <div id="contactMap">
+                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZRQ2F-6B7yVoYW6GzZRZmT5WnvZdNz6U&amp;callback=initMap" async defer></script>
+                            <div id="mymap" style="width:325px;height:300px;"></div>
+                  </div>
+                <div id="contactFooter">
+                <h3><a id="contactCall" href="tel:5022991171">(502)299-1171</a></h3>
+           
+       <script src="index.html.0.js"></script>
     <footer>
            <a id="fbLogo" href="http://facebook.com/jerrytinneyiii"><img src="images/facebook.png" alt="Facebook Logo"></a>
       <div>
@@ -70,6 +60,7 @@
       </div>
       <p>&copy; 2016 Jerry Port Tinney. </p>
     </footer>
+  </div>
   </div>
   </body>
 </html>
