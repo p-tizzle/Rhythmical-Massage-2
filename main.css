@@ -125,7 +125,6 @@ li a:active {
 
 
 
-
 /*********************************************
 *********************************************
              SABRINA
@@ -215,7 +214,7 @@ li a:active {
   font-size: 60px;
   color: #5CB88E;
     background-color: #69857B;
-    margin: 0 20% 0 20%;
+    margin: 0 20%;
     border-radius: 25px;
     text-shadow: 5px 5px 10px #0455B7
  }
@@ -232,7 +231,7 @@ li a:active {
  }
 
 #moreInfo {
-  color:#fff;
+  color:#66ff66;
 }
  
  
@@ -285,20 +284,19 @@ li a:active {
  
 #types{
   width:80%;
-  margin-left:8%;
+  margin-left: 10%;
 }
 
-#email, #addressInfo, .maps{
+#email, #addressInfo, #mymap {
   width: 33.3%;
   float: left;
-  margin:1%;
+
 }
 
-.map {
-    margin: 2%;
- 
-    
+#mymap {
+    margin: 2.5%;
 }
+
 
 #entrance {
   color:white;
@@ -378,6 +376,50 @@ li a:active {
 }
 
 
+/*********************************************
+*********************************************
+             HOURS
+*********************************************
+*********************************************/
+
+.hoursOf {
+  margin: 2%;
+}
+
+
+
+#emailHours {
+  margin: 4%;
+}
+
+
+
+
+/*********************************************
+*********************************************
+             CONTACT PAGE
+*********************************************
+*********************************************/
+
+#contactMap {
+  margin: 4% 41%;
+}
+
+#contactFooter {
+  margin: 0 40%;
+}
+
+#contactCall {
+   color:#66ff66;
+  
+}
+
+
+
+
+
+
+
 
 
 /*********************************************
@@ -391,5 +433,5 @@ li a:active {
   color:#66ff66;
 }
 #footer {
-  margin: 3% auto;
+  margin: 6% 20%;
 }
