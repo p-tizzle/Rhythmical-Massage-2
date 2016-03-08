@@ -2,18 +2,10 @@
 
 @media screen and (max-width: 1900px){
 
-  
-  .links li {
-    display: block;
-    overflow: auto;
-    padding: 2%;
-    
-  }
-   
-  .links {
-    width: 75%;
-  }
-  
+.links li {
+  padding: 2%;
+}
+
 
 #callToday {
   width:90%;
@@ -25,12 +17,30 @@
     font-size: 1em;
   }
   
+#home{
+      display: none
 
    }
+#beneFit{
+  width:100%;
+}
+
+#basicinfo {
+   margin: 1% 10% 5% 10%;
+ }
+
+
+}
+
+
+
+
 @media screen and (max-width: 800px){
-    #home{
-      display: none;
-  }
+
+
+
+
+
   
 #clip{
   display:none;
@@ -41,24 +51,54 @@
 }
 
 
-.general {
+.general{
+   display:none;
+
+}
+
+
+
+header, .title {
   width: 100%;
-  margin: 20px ;
-}
-
-#beneFits{
-  width:100%;
-  overflow:auto;
-}
-
-.info {
-  display:none;
-}
-
-#email {
- margin: auto;
+  margin:0;
 }
   
 }
 
 
+@media screen and (max-width: 1300px){
+  
+  
+#email, #addressInfo, .maps {
+  width:100%;
+  border:none;
+}
+  
+.aboutMe {
+  width: 80%;
+  margin: 0 5%;
+}
+.moreaboutMe {
+  text-align: center;
+  text-indent: 6%;
+}
+ 
+#sabrinaPic {
+  margin:4%;
+}
+}
+ @media screen and (max-width: 1000px){
+   
+ .links li {
+    display: block;
+    padding: 2%;
+}
+
+#specialize {
+  width: 100%;
+  margin:0;
+}
+
+   
+ }
+  
