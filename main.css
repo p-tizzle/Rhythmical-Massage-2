@@ -287,14 +287,15 @@ li a:active {
   margin-left: 10%;
 }
 
-#email, #addressInfo, #mymap {
+#email, #addressInfo, #mapSection{
   width: 33.3%;
   float: left;
 
 }
 
-#mymap {
-    margin: 2.5%;
+#mapSection{
+    margin: 0;
+    padding: 0 3%;
 }
 
 
@@ -402,17 +403,13 @@ li a:active {
 *********************************************/
 
 #contactMap {
-  margin: 4% 41%;
+  margin: 2% 41%;
 }
 
 #contactFooter {
   margin: 0 40%;
 }
 
-#contactCall {
-   color:#66ff66;
-  
-}
 
 
 
@@ -433,5 +430,6 @@ li a:active {
   color:#66ff66;
 }
 #footer {
-  margin: 6% 20%;
+ margin: 20% 40% 5% 40%;
+
 }
