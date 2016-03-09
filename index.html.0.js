@@ -41,9 +41,12 @@
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: mymap,
-          title: 'Massage/RMT'
+          icon: src="images/pushpin.png",
+          title: 'Massage/RMT',
+          
         });
       }
     
-    
+
+ 
     
