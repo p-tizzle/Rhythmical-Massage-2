@@ -1,18 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-          <title>Sabrina Ford massage</title>
-                <link rel="stylesheet" href="normalize.css">
-                <link rel="stylesheet" href="main.css">
-                <link rel="stylesheet" href="responsive.css">
-                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-                      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </head>
-          <body>
-                <div class="container-fluid">
+
                       <a name="top"></a>
   <header>
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -42,21 +29,9 @@
                     </a>
           </div>
   </header>
-            <div>
-                  <h1 class="title">Massage/RMT Therapy <br>Sabrina Ford</h1>
-            </div>
-            <div>
-                  <nav class="links">
-                        <ul id="centerButon">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="About.html">About Me</a></li>
-                            <li><a href="Sessions.html">Sessions</a></li>
-                            <li><a href="Hours.html">Hours</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-                        </ul>
-                  </nav>
-            </div>
-                  <h1><a id="call" href="tel:5022991171">(502)299-1171</a></h1>
+             <?php include("nav.php"); ?>
+                  <h1><a id="call" href="tel:5022991171">(502)299-1171</a></h1> 
+                
             <div class="sabrina">
                   <img id="sabpic" src="images/sabrina.jpg">
                         <p>My name is Sabrina Ford. I am a licensed Massage therapist with training in <a class="linkS" href="Sessions.html">Swedish Massage, Deep Tissue Massage,
@@ -149,11 +124,11 @@
                                   <div id="mymap" style="width:300px;height:275px;"></div>
                       </section>
         </div>
-              <script src="index.html.0.js"></script>
+              <script src="index.php.0.js"></script>
     <footer id="footer">
             <a id="fbLogo" href="http://facebook.com/jerrytinneyiii"><img src="images/facebook.png" alt="Facebook Logo"></a><br>
             <a class="top" href="#top">Back to top of page</a>
-            <p>© 2016 Jerry Port Tinney. </p>
+            <p>&copy; 2016 Jerry Port Tinney. </p>
     </footer>
   </div>
 </body>
