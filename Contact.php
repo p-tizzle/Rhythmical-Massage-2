@@ -1,24 +1,20 @@
 
 <!DOCTYPE html>
 
-                          <?php include("nav.php"); ?>
+     <?php include("nav.php"); ?>
                     </nav>
            <div>
                 <h3><a id="call" href="tel:5022991171">(502)299-1171</a></h3>
            </div>
                   <div id="contactEmail">
-                       <form action="MAILTO:sabford@bellsouth.net" method="post" enctype="text/plain">
-                                    <p>Name:</p>
-                              <input type="text" name="name" value="" size="45" minlength="20">
-                                  <p>E-mail:</p>
-                              <input type="text" name="mail" value="" size="45" maxlength="60">
-                                  <p>Comment:</p>
-                              <textarea name="comments"  cols="48" rows="6" >Enter your comments here...</textarea>
-                          <div id="send">
-                                       <input type="submit" value="Send">
-                                       <input type="reset" value="Reset">
-                          </div>
-                       </form>
+     <?php include("mail.php"); ?>
+                   <form action="" method="post">
+                       First Name: <input type="text" name="first_name"><br>
+                       Last Name: <input type="text" name="last_name"><br>
+                       Your Email: <input type="text" name="your_email"><br>
+                      Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+                         <input type="submit" name="submit" value="Submit">
+                   </form>
                   </div>
           <div id="contactMap">
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZRQ2F-6B7yVoYW6GzZRZmT5WnvZdNz6U&amp;callback=initMap" async defer></script>

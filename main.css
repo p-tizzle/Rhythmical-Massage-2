@@ -432,3 +432,11 @@ li a:active {
  margin: 20% 40% 5% 40%;
 
 }
+
+
+.ifEmpty {
+  color:red;
+}
+
+
+
