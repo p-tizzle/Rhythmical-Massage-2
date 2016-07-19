@@ -23,7 +23,7 @@
                             <li><a href="About.php">About Me</a></li>
                             <li><a href="Sessions.php">Sessions</a></li>
                             <li><a href="Hours.php">Hours</a></li>
-                            <li><a href="Contact.php">Contact</a></li>
+                            <li><a href="Contact.php">Contact Form</a></li>
                         </ul>
                   </nav>
             </div>

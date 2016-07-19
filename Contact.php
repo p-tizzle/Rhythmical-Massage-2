@@ -9,9 +9,24 @@
                   <div id="contactEmail">
      <?php include("mail.php"); ?>
                    <form action="" method="post">
-                       First Name: <input type="text" name="first_name"><br>
-                       Last Name: <input type="text" name="last_name"><br>
-                       Your Email: <input type="text" name="your_email"><br>
+                       First Name: <input type="text" name="first_name"><br><br>
+                       Last Name: <input type="text" name="last_name"><br><br>
+                       Your Email: <input type="text" name="your_email"><br><br>
+                     <select name="gender" id="gender">
+                          <option value="0" selected="selected">What is your gender?
+                          </option>
+                          <option value="male">Male </option>
+                          <option value="female">Female </option>
+                          </select><br>
+                      <select name="massage" id="mesSage">
+                          <option value="0" selected="selected">What type of massage are you interested in?:
+                          </option>
+                          <option value="swedish">Swedish </option>
+                          <option value="deep tissue">Deep Tissue </option>
+                          <option value="myofacial">Myofacial Release</option>
+                          <option value="rhythmical">Rhythmical</option>
+                          </select><br>
+
                       Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
                          <input type="submit" name="submit" value="Submit">
                    </form>

@@ -3,7 +3,7 @@
 
                         <?php include("nav.php"); ?>
               <div class="aboutMe">
-                    <img id="sabrinaPic" src="images/sabrina1.jpg">
+                    <img id="sabrinaPic" src="images/sabrina.jpg">
                        <p class="moreaboutMe"> I came to the idea of a third career as a Massage Therapist after having my own deeply transformative experience
                           with another kind of healing therapy.  I opened to the rising feeling that I should develop skills in my own hands to offer a form of
                           healing touch.  I was given a solid foundation in therapeutic massage techniques and human anatomy at <a class="linkS" href="http://www.advancedmassagetherapeutics.com/">
@@ -21,37 +21,23 @@
               <div id="types">
                   <div id="addressInfo">
                         <div class="info">
-                            <h2>Address</h2>
                             <h3>2325 Lime Kiln Lane</h3>
                             <h2>Phone</h2>
                             <h3><a id="call" href="tel:5022991171">(502)299-1171</a></h3>
               </div>
         </div>
-              <div id="email">
-                    <form action="MAILTO:sabford@bellsouth.net" method="post" enctype="text/plain">
-                            <p>Name:</p>
-                      <input type="text" name="name" value="" size="25" >
-                          <p>E-mail:</p>
-                      <input type="text" name="mail" value="" size="25">
-                          <p>Comment:</p>
-                      <textarea name="comments"  cols="28" rows="3" >Enter your comments here...</textarea>
-                          <div>
-                                <input type="submit" value="Send">
-                                <input type="reset" value="Reset">
-                          </div>
-                    </form>
-               </div>
                <section id="mapSection">
                           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZRQ2F-6B7yVoYW6GzZRZmT5WnvZdNz6U&amp;callback=initMap" async defer></script>
                           <div id="mymap" style="width:300px;height:275px;"></div>
               </section>
          </div>
        <script src="index.php.0.js"></script>
+
     <footer id="footer">
            <a id="fbLogo" href="http://facebook.com/jerrytinneyiii"><img src="images/facebook.png" alt="Facebook Logo"></a><br>
       <a class="top" href="#top">Back to top of page</a>
       <p>&copy; 2016 Jerry Port Tinney. </p>
-    </footer>
+    </footer> 
   </div>
   </body>
 </html>

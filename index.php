@@ -108,7 +108,7 @@
                       </section>
         </div>
               <script src="index.php.0.js"></script>
-    <footer id="footer">
+    <footer id="footerIndex">
             <a id="fbLogo" href="http://facebook.com/jerrytinneyiii"><img src="images/facebook.png" alt="Facebook Logo"></a><br>
             <a class="top" href="#top">Back to top of page</a>
             <p>&copy; 2016 Jerry Port Tinney. </p>
