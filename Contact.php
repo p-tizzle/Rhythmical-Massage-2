@@ -8,7 +8,7 @@
            </div>
                   <div id="contactEmail">
      <?php include("mail.php"); ?>
-                   <form action="" method="post">
+                   <form action="connection.php" method="post">
                        First Name: <input type="text" name="first_name"><br><br>
                        Last Name: <input type="text" name="last_name"><br><br>
                        Your Email: <input type="text" name="your_email"><br><br>
@@ -18,7 +18,7 @@
                           <option value="male">Male </option>
                           <option value="female">Female </option>
                           </select><br>
-                      <select name="massage" id="mesSage">
+                      <select name="massagetype" id="mesSage">
                           <option value="0" selected="selected">What type of massage are you interested in?:
                           </option>
                           <option value="swedish">Swedish </option>
