@@ -1,5 +1,7 @@
-<?php
 
+
+
+<?php
 
 
 define('DB_NAME', 'massagephp');
@@ -19,6 +21,7 @@ if (!$db_selected) {
 	die('Can\'t use ' . DB_NAME . ': ' . mysql_error());
 }
 
+
 $value = $_POST['first_name'];
 $value2 = $_POST['last_name'];
 $value3 = $_POST['your_email'];
@@ -26,7 +29,24 @@ $value4 = $_POST['gender'];
 $value5 = $_POST['massagetype'];
 
 
-$sql = "INSERT INTO massage (first_name, last_name, your_email, gender, massagetype) VALUES ('$value','$value2', '$value3', '$value4', '$value5')";
+if (empty($value) && empty($value2)){
+        echo '<p style="color:red;font-size:30px">You forgot your first and last names !!</p>';
+    }
+
+
+    if (!empty($value) && empty($value2)) {
+        echo '<p style="color:red;font-size:30px">You forgot your last name!!</p>';
+    } 
+
+
+    if (empty($value) && !empty($value2)) {
+        echo '<p style="color:red;font-size:30px">You forgot your first name!!</p>';
+    }
+
+
+
+if(!empty($value) && !empty($value2)) {$sql = "INSERT INTO massage (first_name, last_name, your_email, gender, massagetype) VALUES ('$value','$value2', '$value3', '$value4', '$value5')";
+}
 
 if (!mysql_query($sql)) {
 	die('Error: ' . mysql_error());
@@ -36,10 +56,14 @@ if (!mysql_query($sql)) {
 
 
 mysql_close();
+ 
 
-/*header("location:contact.php"); */
 
 echo "<script>
              alert('Your email has been sent, thank you for your time'); 
              window.history.go(-1);
      </script>";
+
+
+
+

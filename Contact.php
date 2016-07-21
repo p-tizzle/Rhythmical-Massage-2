@@ -7,7 +7,7 @@
                 <h3><a id="call" href="tel:5022991171">(502)299-1171</a></h3>
            </div>
                   <div id="contactEmail">
-     <?php include("mail.php"); ?>
+    
                    <form action="connection.php" method="post">
                        First Name: <input type="text" name="first_name"><br><br>
                        Last Name: <input type="text" name="last_name"><br><br>
@@ -30,6 +30,7 @@
                       Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
                          <input type="submit" name="submit" value="Submit">
                    </form>
+                   
                   </div>
           <div id="contactMap">
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZRQ2F-6B7yVoYW6GzZRZmT5WnvZdNz6U&amp;callback=initMap" async defer></script>
