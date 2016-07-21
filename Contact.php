@@ -8,7 +8,7 @@
            </div>
                   <div id="contactEmail">
      <?php include("mail.php"); ?>
-                   <form action="connection.php" method="post">
+                   <form name="myform" action="connection.php" onsubmit="return validateForm()" method="post">
                        First Name: <input type="text" name="first_name"><br><br>
                        Last Name: <input type="text" name="last_name"><br><br>
                        Your Email: <input type="text" name="your_email"><br><br>

@@ -46,6 +46,15 @@
           
         });
       }
+
+
+      function validateForm() {
+    var x = document.forms["myform"]["first_name", "last_name"].value;
+    if (x == null || x == "") {
+        alert("You must complete all fields");
+        return false;
+    }
+}
     
 
  

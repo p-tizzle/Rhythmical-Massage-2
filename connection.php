@@ -29,24 +29,10 @@ $value4 = $_POST['gender'];
 $value5 = $_POST['massagetype'];
 
 
-if (empty($value) && empty($value2)){
-        echo '<p style="color:red;font-size:30px">You forgot your first and last names !!</p>';
-    }
 
 
-    if (!empty($value) && empty($value2)) {
-        echo '<p style="color:red;font-size:30px">You forgot your last name!!</p>';
-    } 
+$sql = "INSERT INTO massage (first_name, last_name, your_email, gender, massagetype) VALUES ('$value','$value2', '$value3', '$value4', '$value5')";
 
-
-    if (empty($value) && !empty($value2)) {
-        echo '<p style="color:red;font-size:30px">You forgot your first name!!</p>';
-    }
-
-
-
-if(!empty($value) && !empty($value2)) {$sql = "INSERT INTO massage (first_name, last_name, your_email, gender, massagetype) VALUES ('$value','$value2', '$value3', '$value4', '$value5')";
-}
 
 if (!mysql_query($sql)) {
 	die('Error: ' . mysql_error());
