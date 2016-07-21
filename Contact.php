@@ -7,7 +7,7 @@
                 <h3><a id="call" href="tel:5022991171">(502)299-1171</a></h3>
            </div>
                   <div id="contactEmail">
-    
+     <?php include("mail.php"); ?>
                    <form action="connection.php" method="post">
                        First Name: <input type="text" name="first_name"><br><br>
                        Last Name: <input type="text" name="last_name"><br><br>
