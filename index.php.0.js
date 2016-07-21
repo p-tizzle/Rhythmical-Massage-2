@@ -46,7 +46,9 @@
           
         });
       }
-
+ /**************************************
+          Form Validation
+ **************************************/
 
       function validateForm() {
     var x = document.forms["myform"]["first_name", "last_name"].value;
