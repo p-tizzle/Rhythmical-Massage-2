@@ -6,7 +6,7 @@
 
 define('DB_NAME', 'massagephp');
 define('DB_USER', 'root');
-define('DB_PASSWORD','Dadrld21');
+define('DB_PASSWORD','');
 define('DB_HOST', 'localhost');
 
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
